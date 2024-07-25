@@ -1,0 +1,298 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 16px;
+    justify-content: space-between;
+}
+/* .fixed{
+    position: fixed;
+    width: 100%;
+} */
+nav a{
+    color: white;
+    text-align: center;
+    /* padding: 10px; */
+    text-decoration: none;
+    font-size: medium;
+}
+nav .nav-section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+section{
+    text-align: center;
+    padding: 20px;
+}
+section a{
+    color: black;
+    gap: 5px;
+    text-decoration: none;
+}
+section a:hover{
+    color: red;
+}
+div{
+    background-color: black;
+    padding: 20px;
+}
+.div1 a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.div1 a:hover{
+    text-decoration:underline;
+}
+.div2 a{
+    color: white;
+    text-decoration: none;
+    gap: 20px;
+    cursor: text;
+}
+ #id1{
+    cursor: text;
+    font-weight: 600;
+}
+input{
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+button{
+    width: 100%;
+    border: none;
+}
+h3 a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    
+
+}
+h3 a:hover{
+    text-decoration: underline;
+}
+ul a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+ul a:hover{
+    text-decoration: underline;
+}
+ul{display: inline-block}
+ul{
+    padding: 35px;
+}
+.left{
+   float: left;
+}
+.right{
+    float: left;
+}
+.left1{
+    float: left;
+}
+.right2{
+    float: left;
+}
+.left3{
+    float: left;
+}
+.right4{
+    float: left;
+}
+.leftt{
+    float: left;
+}
+.rightt{
+    float: left;
+}
+.leftt1{
+    float: left;
+}
+.rightt2{
+    float: left;
+}
+.leftt3{
+    float: left;
+}
+.rightt4{
+    float: left;
+}    
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+/* .items{
+    background-color: aqua;
+    border: 3px green solid;
+    border-radius: 5px;
+} */
+.top{
+    font-size:xx-large ;
+    text-align: left;
+}
+.top:hover{
+    color: red;
+}
+.top1{
+    font-size: 17px;
+    text-align: left;
+}
+.top1:hover{
+    color: red;
+}
+.top11{
+    font-size: 27px;
+    text-align: left;
+}
+.top11:hover{
+    color: red;
+}
+.p1{
+    text-align: left;
+}
+.p1:hover{
+    color: red;
+}
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+.change{
+    background-color: rgb(224, 224, 224);
+    text-align: left;
+    margin: 0%;
+}
+#p1{
+    position: absolute;
+    right: 500px;
+    top: 1440px;
+    font-size: large;
+}
+#p2{
+    position: absolute;
+    right: 500px;
+    top: 1560px;
+    font-size: large;
+}
+#p3{
+    position: absolute;
+    right: 40px;
+    top: 1110px;
+    font-size: large;
+}
+#p4{
+    position: absolute;
+    right: 40px;
+    top: 1230px;
+    font-size: large;
+}
+#p5{
+    position: absolute;
+    right: 30px;
+    top: 1330px;
+    font-size: large;
+}
+.box{
+    display: block;
+    justify-content: left;
+}
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+#p6{
+    position: absolute;
+    left: 230px;
+    top: 2320px;
+    font-size: large;
+}
+#p7{
+    position: absolute;
+    left: 230px;
+    top: 2410px;
+    font-size: large; 
+}
+#p8{
+    position: absolute;
+    left: 230px;
+    top: 2540px;
+    font-size: large;
+}
+#p9{
+    position: absolute;
+    right: 490px;
+    top: 2310px;
+    font-size: large;
+}
+#p10{
+    position: absolute;
+    right: 490px;
+    top: 2410px;
+    font-size: large;
+}
+#p11{
+    position: absolute;
+    right: 40px;
+    top: 2310px;
+    font-size: large;
+}
+#p12{
+    position: absolute;
+    right: 70px;
+    top: 2420px;
+    font-size: large;
+}
+.h4{
+    text-align: left;
+    font-size: x-large;
+    font-weight: 300;
+}
+.styling{
+    width: 770px;
+    position: absolute;
+    top: 2735px;
+    left: 210px;
+    border: 2px solid rgb(192, 192, 192);
+}
+.stylings{
+    width: 770px;
+    position: absolute;
+    top: 2743px;
+    left: 210px;
+    border: 2px solid rgb(192, 192, 192);
+}
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media screen and (max-width: 800px) {
+    nav{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    div,.nav-section{
+        flex-direction: column;
+        padding: 10px 0px; 
+    }
+    nav.a{
+        flex-direction: column;
+    }
+    section,.container,.container1,.container2,.container3,.items,.change,.p1{
+        grid-template-columns: auto;
+    }
+    footer,.div1,.div2{
+        padding: 0px;
+        display: list-item;
+    }
+
+}
+    
